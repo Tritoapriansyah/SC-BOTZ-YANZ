@@ -50,7 +50,7 @@ const starts = async (deff = new WAConnection()) => {
 
 	}), 'cyan'))
 //=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×=×			
-    deff.browserDescription = [ 'COMMENT YT MAU APALAGI BG', 'Safari', '3.0.0' ]
+    deff.browserDescription = [ 'yo', 'Safari', '3.0.0' ]
     
     deff.on('qr', () => {
         console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan bang'))
@@ -81,8 +81,8 @@ console.log(color('[ DEFF ]', 'cyan'), color('Bot Sudah Online!'))
 ]
 
 buttonMessagee = {
-contentText: `Berhasil connect\nJangan lupa subs\nRequest fitur lgsung ke nomor developer\n`,
-footerText: `No Developer : 089501060783` ,
+contentText: `Berhasil connect`,
+footerText: `${control.NamaBot}` ,
 buttons: buttonss,
 headerType: 1
 }
@@ -284,7 +284,7 @@ function doProgress()
 	{
 		setTimeout( function() { console.clear(),
 		exec(`screenfetch -A Deepin`, (error, stdout, stderr) => {
-			console.log(stdout), console.log(bgcolor('https://github.com/deff😜123', 'cyan'))})}, 200 ) ;
+			console.log(stdout), console.log(bgcolor('https://github.com/Tritoapriansyah', 'cyan'))})}, 200 ) ;
 	}
 	else
 	{
