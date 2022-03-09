@@ -3391,7 +3391,7 @@ _🎲LIMIT: ${isOwner ? 'Unlimited' : isPremium ? 'Unlimited' : getLimit(sender,
     footerText:`
 ┌─❖
 │*「 MAIN MENU 」*
-└┬❖ *「 DEFFBOTZZ 」*
+└┬❖ *「 Lolita Bot 」*
 ┌┤✑  *>request* <request ke owner>
 ││✑  *>requestdev* <request ke developer>
 ││✑  *>report* <lapor bug syg>
@@ -3404,7 +3404,7 @@ _🎲LIMIT: ${isOwner ? 'Unlimited' : isPremium ? 'Unlimited' : getLimit(sender,
 │✙ *${prefix}rules*
 └─────────────────┈ ⳹
 
-┏━━━━━「 DEFFBOTZ 」━━━━━━⭓ 
+┏━━━━━「 Lolita Bot 」━━━━━━⭓ 
 ┃╔═══════════✪「 OWNER 」	        
 ┃╠${prefix}broadcast
 ┃╠${prefix}broadcast2
@@ -3439,10 +3439,16 @@ _🎲LIMIT: ${isOwner ? 'Unlimited' : isPremium ? 'Unlimited' : getLimit(sender,
 ┃╠${prefix}demote
 ┃╠${prefix}promote
 ┃╠${prefix}reminder (Limit) 
+┃╠${prefix}linkgc
+┃╠${prefix}leavegc
+┃╠${prefix}sticktag
 ┃╠═══════════✪[「 DOWNLOAD 」	
 ┃╠${prefix}play *query* (Limit) 
 ┃╠${prefix}tiktokdl *link* (Limit) 
-┃╠${prefix}mediafire *link* (Limit) 
+┃╠${prefix}mediafire *link* (Limit)
+┃╠${prefix}igdl *link* (limit)
+┃╠${prefix}ytmp3 *link* (limit)
+┃╠${prefix}ytmp4 *link* (limit)
 ┃╠═════════✪「 RANDOM TEXT 」
 ┃╠${prefix}faktaunik
 ┃╠${prefix}pantun
@@ -3519,7 +3525,6 @@ _🎲LIMIT: ${isOwner ? 'Unlimited' : isPremium ? 'Unlimited' : getLimit(sender,
 ┃╠${prefix}leaderboards
 ┃╚═════════════════✪
 ┗━━━「 BOT-WHATSAPP 」━━━⭓
-*This script not have a apikey*
     `
   , imageMessage: imageMsg,
     buttons: buttons,
